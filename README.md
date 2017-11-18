@@ -1,5 +1,7 @@
 # Faker plugin for Craft CMS 3.x
 
+> This plugin is a WIP version, and is not really ready to use yet.
+
 Create elements with fake data, swiftly.
 
 ![Screenshot](resources/img/icon.png)
