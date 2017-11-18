@@ -1,0 +1,54 @@
+{
+    "name": "superbig/craft3-faker",
+    "description": "Fake data",
+    "type": "craft-plugin",
+    "version": "2.0.0.",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "faker"
+    ],
+    "support": {
+        "docs": "https://github.com/sjelfull/craft3-faker/blob/master/README.md",
+        "issues": "https://github.com/sjelfull/craft3-faker/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Superbig",
+            "homepage": "https://superbig.co"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "~3.0.0-beta.23",
+        "fzaninotto/faker": "v1.7.1"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "superbig\\faker\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Faker",
+        "handle": "faker",
+        "schemaVersion": "2.0.0.",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/sjelfull/craft3-faker/master/CHANGELOG.md",
+        "components": {
+            "entry": "superbig\\faker\\services\\Entry",
+            "commerce": "superbig\\faker\\services\\Commerce",
+            "tag": "superbig\\faker\\services\\Tag",
+            "fakerService": "superbig\\faker\\services\\FakerService"
+        },
+        "class": "superbig\\faker\\Faker"
+    }
+}

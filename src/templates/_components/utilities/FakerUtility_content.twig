@@ -1,0 +1,23 @@
+{#
+/**
+ * Faker plugin for Craft CMS
+ *
+ * FakerUtility Utility Content
+ *
+ * @author    Superbig
+ * @copyright Copyright (c) 2017 Superbig
+ * @link      https://superbig.co
+ * @package   Faker
+ * @since     2.0.0.
+ */
+#}
+
+<h1>FakerUtility</h1>
+
+{% set iconUrl = view.getAssetManager().getPublishedUrl('@superbig/faker/assetbundles/fakerutilityutility/dist', true) ~ '/img/FakerUtility-icon.svg' %}
+
+<img src="{{ iconUrl }}" height="64" width="64" />
+
+<p>Your Utility content goes here</p>
+
+<p>{{ someVar }}</p>
